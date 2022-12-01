@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button, Form } from "react-bootstrap";
 
-const AddComment = () => {
+const AddComment = (props) => {
   // state = {
   //   isClicked: false,
   //   newComment: {
@@ -15,7 +15,7 @@ const AddComment = () => {
     author: "example@example.com",
     comment: "",
     rate: "",
-    elementId: this.props.selectedBookId,
+    elementId: props.selectedBookId,
   });
 
   const [isClicked, setIsClicked] = useState(false);
