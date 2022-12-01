@@ -1,0 +1,29 @@
+.card {
+  border-radius: 10px;
+  height: auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  cursor: pointer;
+}
+.card img {
+  height: 16rem;
+  width: auto;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-body {
+  height: 150px;
+  overflow-y: hidden;
+}
+
+.card-title {
+  font-size: 0.8rem;
+  overflow-y: hidden;
+}
+
+.card-selected {
+  background-color: rgb(203, 203, 203);
+  border-bottom: 4px solid rgba(134, 27, 27, 0.6);
+}

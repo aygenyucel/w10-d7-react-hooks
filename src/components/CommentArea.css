@@ -1,0 +1,15 @@
+.add-comment-btn {
+  background-color: rgb(64, 64, 64);
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
+.comment-area {
+  margin-top: 25vh;
+  width: 40vw;
+  max-height: 60vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-bottom: 30px;
+}
